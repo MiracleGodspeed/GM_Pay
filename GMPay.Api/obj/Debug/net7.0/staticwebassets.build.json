@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "S3FvmaqvMlkU9izS/MWSgnz4713u5pE3PiwA0DyWB6U=",
+  "Source": "GMPay.Api",
+  "BasePath": "_content/GMPay.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

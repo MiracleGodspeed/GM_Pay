@@ -1,0 +1,14 @@
+\\Mac\Home\Documents\Miracle\GMPay\GMPay.Core\bin\Debug\net7.0\GMPay.Core.deps.json
+\\Mac\Home\Documents\Miracle\GMPay\GMPay.Core\bin\Debug\net7.0\GMPay.Core.runtimeconfig.json
+\\Mac\Home\Documents\Miracle\GMPay\GMPay.Core\bin\Debug\net7.0\GMPay.Core.dll
+\\Mac\Home\Documents\Miracle\GMPay\GMPay.Core\bin\Debug\net7.0\GMPay.Core.pdb
+\\Mac\Home\Documents\Miracle\GMPay\GMPay.Core\obj\Debug\net7.0\GMPay.Core.csproj.AssemblyReference.cache
+\\Mac\Home\Documents\Miracle\GMPay\GMPay.Core\obj\Debug\net7.0\GMPay.Core.GeneratedMSBuildEditorConfig.editorconfig
+\\Mac\Home\Documents\Miracle\GMPay\GMPay.Core\obj\Debug\net7.0\GMPay.Core.AssemblyInfoInputs.cache
+\\Mac\Home\Documents\Miracle\GMPay\GMPay.Core\obj\Debug\net7.0\GMPay.Core.AssemblyInfo.cs
+\\Mac\Home\Documents\Miracle\GMPay\GMPay.Core\obj\Debug\net7.0\GMPay.Core.csproj.CoreCompileInputs.cache
+\\Mac\Home\Documents\Miracle\GMPay\GMPay.Core\obj\Debug\net7.0\GMPay.Core.dll
+\\Mac\Home\Documents\Miracle\GMPay\GMPay.Core\obj\Debug\net7.0\refint\GMPay.Core.dll
+\\Mac\Home\Documents\Miracle\GMPay\GMPay.Core\obj\Debug\net7.0\GMPay.Core.pdb
+\\Mac\Home\Documents\Miracle\GMPay\GMPay.Core\obj\Debug\net7.0\GMPay.Core.genruntimeconfig.cache
+\\Mac\Home\Documents\Miracle\GMPay\GMPay.Core\obj\Debug\net7.0\ref\GMPay.Core.dll
