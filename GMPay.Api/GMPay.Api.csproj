@@ -22,6 +22,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\GMPay.Core\GMPay.Core.csproj" />
     <ProjectReference Include="..\GMPay.Data\GMPay.Data.csproj" />
   </ItemGroup>
 

@@ -12,6 +12,6 @@ namespace GMPay.Data.Model
         public string FirstName { get; set; }
         public string Surname { get; set; }
         public DateTime DateofBirth { get; set; }
-        public Guid CustomerNumber { get; set; }
+        public string CustomerNumber { get; set; }
     }
 }

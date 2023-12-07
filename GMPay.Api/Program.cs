@@ -1,3 +1,4 @@
+using GMPay.Api.Middlewares;
 using GMPay.Data.Model;
 using Microsoft.EntityFrameworkCore;
 
@@ -23,6 +24,7 @@ builder.Services.AddDbContext<GMPayContext>(opt => opt.UseSqlServer(builder.Conf
                                 , ServiceLifetime.Transient
    );
 builder.Services.AddHttpClient();
+builder.Services.ConfigureService();
 
 var app = builder.Build();
 

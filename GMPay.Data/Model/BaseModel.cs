@@ -11,5 +11,6 @@ namespace GMPay.Data.Model
         public Guid Id { get; set; }
         public DateTime? AddedOn { get; set; }
         public DateTime? UpdatedOn { get; set; }
+        public bool Active { get; set; } = false;
     }
 }

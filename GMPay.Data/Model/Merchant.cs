@@ -12,8 +12,8 @@ namespace GMPay.Data.Model
         public string BusinessID { get; set; }
         public string ContactFirstName { get; set; }
         public string ContactSurname { get; set; }
-        public string DateofEstablishment { get; set; }
-        public Guid MerchantNumber { get; set; }
-        public Guid? AverageTransactionVolume { get; set; }
+        public DateTime DateofEstablishment { get; set; }
+        public string MerchantNumber { get; set; }
+        public decimal? AverageTransactionVolume { get; set; }
     }
 }

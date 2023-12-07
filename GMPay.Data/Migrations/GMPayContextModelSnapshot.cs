@@ -28,11 +28,15 @@ namespace GMPay.Data.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
+                    b.Property<bool>("Active")
+                        .HasColumnType("bit");
+
                     b.Property<DateTime?>("AddedOn")
                         .HasColumnType("datetime2");
 
-                    b.Property<Guid>("CustomerNumber")
-                        .HasColumnType("uniqueidentifier");
+                    b.Property<string>("CustomerNumber")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("DateofBirth")
                         .HasColumnType("datetime2");
@@ -63,6 +67,9 @@ namespace GMPay.Data.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
+                    b.Property<bool>("Active")
+                        .HasColumnType("bit");
+
                     b.Property<DateTime?>("AddedOn")
                         .HasColumnType("datetime2");
 
@@ -91,11 +98,14 @@ namespace GMPay.Data.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
+                    b.Property<bool>("Active")
+                        .HasColumnType("bit");
+
                     b.Property<DateTime?>("AddedOn")
                         .HasColumnType("datetime2");
 
-                    b.Property<Guid?>("AverageTransactionVolume")
-                        .HasColumnType("uniqueidentifier");
+                    b.Property<decimal?>("AverageTransactionVolume")
+                        .HasColumnType("decimal(18,2)");
 
                     b.Property<string>("BusinessID")
                         .IsRequired()
@@ -113,12 +123,12 @@ namespace GMPay.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("DateofEstablishment")
+                    b.Property<DateTime>("DateofEstablishment")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("MerchantNumber")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
-
-                    b.Property<Guid>("MerchantNumber")
-                        .HasColumnType("uniqueidentifier");
 
                     b.Property<DateTime?>("UpdatedOn")
                         .HasColumnType("datetime2");
