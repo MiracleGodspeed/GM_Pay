@@ -79,6 +79,9 @@ namespace GMPay.Data.Migrations
                     b.Property<decimal>("TransactionAmount")
                         .HasColumnType("decimal(18,2)");
 
+                    b.Property<int>("TransactionCategory")
+                        .HasColumnType("int");
+
                     b.Property<DateTime>("TransactionDate")
                         .HasColumnType("datetime2");
 

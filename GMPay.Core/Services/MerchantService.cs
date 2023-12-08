@@ -62,11 +62,18 @@ namespace GMPay.Core.Services
 
         public async Task<BaseResponse> AllMerchantList(int pageNumber, int pageSize)
         {
-            var allMerchants = await _context.Merchant
+            try
+            {
+                var allMerchants = await _context.Merchant
                 .Skip((pageNumber - 1) * pageSize)
                 .Take(pageSize)
                 .ToListAsync();
-            return new BaseResponse() {IsSuccess = true, Data = allMerchants  };
+                return new BaseResponse() { IsSuccess = true, Data = allMerchants };
+            }
+            catch (Exception ex) 
+            {
+                throw ex;
+            }
         }
 
         public bool IsBusinessEstablishmentDateValid(DateTime establishmentDate)

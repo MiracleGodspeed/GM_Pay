@@ -8,8 +8,9 @@ namespace GMPay.Api.Middlewares
         public static void ConfigureService(this IServiceCollection services)
         {
             services.AddScoped(typeof(IMerchantService), typeof(MerchantService));
+            services.AddScoped(typeof(ICustomerService), typeof(CustomerService));
 
-           
+
             services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
 
         }

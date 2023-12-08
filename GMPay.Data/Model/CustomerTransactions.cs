@@ -12,6 +12,8 @@ namespace GMPay.Data.Model
         public Guid CustomerId { get; set; }
         public decimal TransactionAmount { get; set; }
         public DateTime TransactionDate { get; set; }
+        public TransactionCategory TransactionCategory { get; set; }
+        public bool IsSuccessful { get; set; }
 
 
 
